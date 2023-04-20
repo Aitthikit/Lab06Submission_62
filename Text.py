@@ -63,7 +63,7 @@ FONT = pg.font.Font(None, 32)
 input_box1 = InputBox(100, 100, 140, 32) # สร้าง InputBox1
 input_box2 = InputBox(100, 300, 140, 32) # สร้าง InputBox2
 input_boxes = [input_box1, input_box2] # เก็บ InputBox ไว้ใน list เพื่อที่จะสามารถนำไปเรียกใช้ได้ง่าย
-
+a ="ww"
 while(run):
     screen.fill((255, 255, 255))
     for box in input_boxes: # ทำการเรียก InputBox ทุกๆตัว โดยการ Loop เข้าไปยัง list ที่เราเก็บค่า InputBox ไว้
